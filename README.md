@@ -1,2 +1,7 @@
 # PocketMine-MP
-Pocketmine-MP plugins
+-----------------
+Pocketmine-MP plugins for MCPE server!
+
+# Follow Me 
+------------
+Twitter : **@itsMegaMCPE**
