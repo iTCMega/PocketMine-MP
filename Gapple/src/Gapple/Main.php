@@ -27,7 +27,7 @@ class Main extends PluginBase implements Listener{
 	}
 	public function onTip(PlayerItemHeldEvent $ev){
 		if($ev->getPlayer()->getInventory()->getItemInHand()->getId() === 322){
-			$ev->getPlayer()->sendTip(color::Yellow. "Eat Gapple!");
+			$ev->getPlayer()->sendTip(color::YELLOW. "Eat Gapple!");
 		}
 	}
 	
