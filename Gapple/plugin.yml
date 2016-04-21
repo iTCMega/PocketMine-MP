@@ -1,1 +1,6 @@
-
+name: Gapple
+author: MyNET(iTCMega)
+description: a better gapple for PocketMine!
+version: 1.0.0
+main: Gapple\Main
+api: [1.14.0]
