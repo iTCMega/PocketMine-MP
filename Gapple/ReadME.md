@@ -2,7 +2,6 @@
 -------------
 Features:
 + Eat Gapple,ur health will regeneration more fast!
-+ No Particles!
 
 How To Add This Plugin On Ur Server?
 --------------------------------------
