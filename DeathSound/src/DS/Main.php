@@ -1,6 +1,6 @@
 <?php 
 
-namespace DeathSound;
+namespace DS;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
