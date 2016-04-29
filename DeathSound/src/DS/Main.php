@@ -8,6 +8,7 @@ use pocketmine\utils\TextFormat as color;
 use pocketmine\event\player\PlayerDeathEvent;
 use pocketmine\Player;
 use pocketmine\Server;
+use pocketmine\utils\Config;
 use pocketmine\level\sound\AnvilBreakSound;
 use pocketmine\level\sound\AnvilFallSound;
 use pocketmine\level\sound\AnvilUseSound;
@@ -33,5 +34,19 @@ class Main extends PluginBase implements Listener{
 		$this->saveDefaultConfig;
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getServer()->getLogger()->info(color::BLUE. "Wow its has been activated!!");
+		
+	$this->config = new Config($this->getDataFolder() . "config.yml" , Config::YAML, Array(
+		"Sound" => ClickSound,
+            ));
+            $this->saveResource("config.yml");
+	}
+	
+	public function onDeath(PlayerDeathEvent $event){
+		$player = $event->getPlayer();
+		$playerTest = $event->getEntity();
+		
+		$config = $this->config->get("Sound");
+		
+		$player->getPlayer()->getLevel()->addSound(new $config($playerTest));
 	}
 }
