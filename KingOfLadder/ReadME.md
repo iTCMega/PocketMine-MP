@@ -22,10 +22,10 @@
 
 #How can player teleport to arena?
 - op need use "/king set" command to set any place on arena!
-- why use "/king set"?
+- why use "/king setpos"?
 - cuz, when player die in match, player will teleport to place where u set it! and player can play match again until "1 player won the match"
 
 #Commands :
 - /king join - Join KingOfTheLadder match!
-- /king set - set spawnpoint
+- /king setpos - set spawnpoint
 - /king leave - Leave KingOfTheLadder match!
