@@ -1,18 +1,19 @@
 #To-Do :
-- Max Player can play : 10 player
-- waitingPlayer : 5 player
+- Max Player can play : 6 player
+- waitingPlayer : 4 player
 
-- gameTime : 200
+- gameTime : 5min
 - waitTime : 10sec
-- endTime  : 200
+- endTime  : 5min
 
 - reward: $2000 coins
+- reward: +2 Crown
 
 - block : chest
 
 #Rules 
 - When $player1 tap sign, $player1 will teleport to waiting room!
-- $player1 need waiting until $player2,3,4,and 5 join the match!
+- $player1 need waiting until $player2,3, and 4, join the match!
 - Also player can use command to join match! 
 - waitTime will start!
 - $player on waiting room will teleport to arena when waitTime done!
