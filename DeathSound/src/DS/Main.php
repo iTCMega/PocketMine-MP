@@ -31,7 +31,7 @@ use pocketmine\level\sound\ZombieInfectSound;
 class Main extends PluginBase implements Listener{
 	
 	public function onEnable(){
-		$this->saveDefaultConfig;
+		$this->saveDefaultConfig();
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getServer()->getLogger()->info(color::BLUE. "Wow its has been activated!!");
 		
