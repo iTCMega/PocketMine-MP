@@ -21,7 +21,7 @@
 - players need tap "block" to won the match!
 
 #How can player teleport to arena?
-- op need use "/king set" command to set any place on arena!
+- op need use "/king setpos" command to set any place on arena!
 - why use "/king setpos"?
 - cuz, when player die in match, player will teleport to place where u set it! and player can play match again until "1 player won the match"
 
