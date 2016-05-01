@@ -22,6 +22,7 @@ class Main extends PluginBase implements Listener{
 		if($event->getItem()->getId() === 322){
             $p->addEffect(Effect::getEffect(10)->setAmplifier(3)->setDuration(200)->setVisible(true));
             $p->addEffect(Effect::getEffect(21)->setAmplifier(0)->setDuration(1000)->setVisible(true));
+                        $p->setHealth(40);
 			$p->setMaxHealth(40);
 		}
 	}
