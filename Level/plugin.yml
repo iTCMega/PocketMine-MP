@@ -1,0 +1,5 @@
+name: Level
+author: MyNET(iTCMega)
+version: 1.0.0_BETA
+main: Level\Main
+api: [1.14.0]
