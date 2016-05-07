@@ -36,7 +36,7 @@ class Main extends PluginBase implements Listener{
 		$this->getServer()->getLogger()->info(color::BLUE. "Wow its has been activated!!");
 		
 	$this->config = new Config($this->getDataFolder() . "config.yml" , Config::YAML, Array(
-		"Sound" => "ClickSound",
+		"Sound" => "FizzSound",
             ));
             $this->saveResource("config.yml");
 	}
