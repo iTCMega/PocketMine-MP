@@ -4,4 +4,4 @@
 # sounds in src/pocketmine/level/sound
 ##  Example:
 # Sound: ClickSound
-Sound: ExplodeSound
+Sound: FizzSound
