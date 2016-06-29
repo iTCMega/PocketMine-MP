@@ -1,5 +1,5 @@
-name: Level
+name: LevelUp
 author: MyNET(iTCMega)
-version: 1.0.0_BETA
-main: Level\Main
-api: [1.14.0]
+version: 1.0.0
+main: LevelUp\Main
+api: [1.14.0, 2.0.0]
