@@ -3,15 +3,28 @@
 namespace MyNET/OneOne;
 
 use pocketmine\plugin\PluginBase;
+use pocketmine\Server;
+use pocketmine\level\Level;
 
 class OneOne extends PluginBase{
-  private $p1 = getPlayer(1);
-  private $p2 = getPlayer(2);
   
-  private $oneone = $p1 + $p2;
+  public $one;
+  private $arena;
   
-  function onEnable(){
-    //Don't work
+  public function onEnable(){
   }
+  
+  public function getServer(){
+    return Server::getInstance();
+  }
+  
+  public function checkArena($arena){
+    if($this->ArenaExists == $this->getServer()->getLevelByName($arena)){
+      $this->one = $arena;
+    }
+    
+    
+  }
+  
 }
 
