@@ -6,6 +6,6 @@ Pocketmine-MP plugins for MCPE server!
 ------------
 Twitter : **@itsMegaMCPE**
 
-#All Plugins made by :
-#GITHUB: https://github.com/iTCMega
-#GITHUB: https://github.com/RedstoneAlmeida
+All Plugins made by :
+GITHUB: https://github.com/iTCMega
+GITHUB: https://github.com/RedstoneAlmeida
