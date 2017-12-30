@@ -1,6 +1,9 @@
 name: DeathSound
-author: MyNET(iTCMega.com)
-description: When $player dead,the sound will popup!
-version: 1.0.0
+author: MyNET(iTCMega)
+description: Hear the coolest sound when u dead!
+version: 2.0
 main: DS\Main
-api: [2.0.0, 3.0.0]
+api:
+- 3.0.0-ALPHA7
+- 3.0.0-ALPHA9
+- 3.0.0-ALPHA10
