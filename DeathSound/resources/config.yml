@@ -2,6 +2,5 @@
 ## Sounds:
 # ClickSound, ExplodeSound, AnvilBreakSound, EndermanTeleportSound
 # sounds in src/pocketmine/level/sound
-##  Example:
-# Sound: ClickSound
+
 Sound: FizzSound
