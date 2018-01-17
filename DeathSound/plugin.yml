@@ -1,8 +1,8 @@
 name: DeathSound
-author: MyNET(iTCMega)
+author: MyNET
 description: Hear the coolest sound when u dead!
-version: 2.0
-main: DS\Main
+version: 2.1
+main: DeathSound\Main
 api:
 - 3.0.0-ALPHA7
 - 3.0.0-ALPHA9
