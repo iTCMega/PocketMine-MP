@@ -31,23 +31,21 @@ use pocketmine\level\sound\ZombieInfectSound;
 class Main extends PluginBase implements Listener{
 	
 	public function onEnable(){
-		$this->saveDefaultConfig();
-		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getServer()->getLogger()->info(color::BLUE. "Wow its has been activated!!");
+	     $this->saveDefaultConfig();
+             $this->getServer()->getPluginManager()->registerEvents($this, $this);
+	     $this->getServer()->getLogger()->info(color::BLUE. "DeathSound Enable!!");
 		
-	$this->config = new Config($this->getDataFolder() . "config.yml" , Config::YAML, Array(
-		"Sound" => "FizzSound",
-            ));
-            $this->saveResource("config.yml");
+	     $this->config = new Config($this->getDataFolder() . "config.yml" , Config::YAML, Array(
+		  "Sound" => "FizzSound",
+             ));
+             $this->saveDefaultConfig;
+	     $this->sound = $this->config->get("Sound");
 	}
 	
 	public function onDeath(PlayerDeathEvent $event){
-		$player = $event->getPlayer();
-		$playerTest = $event->getEntity();
-		
-		$config = $this->config->get("Sound");
-		
-		$player->getPlayer()->getLevel()->addSound(new $config($playerTest));
+	     $player = $event->getPlayer();
+	     $player2 = $event->getEntity();
+	     $player->getPlayer()->getLevel()->addSound(new $this->sound($player2));
 	}
 }
 
