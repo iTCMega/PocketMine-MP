@@ -3,7 +3,7 @@
 ### Features:
  Regeneration More Faster!
 
-How To Add This Plugin To Your Server?
+### How To Add This Plugin To Your Server?
 --------------------------------------
 ```
 1. Put Gapple.phar on your  "Plugin File"
