@@ -1,0 +1,9 @@
+name: CustomWelcome
+author: MyNET
+description: Customize your own welcome message.
+version: 1.0
+api:
+- 3.0.0
+- 3.0.0-ALPHA10
+
+main: cw\Main
