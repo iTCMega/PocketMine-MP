@@ -4,7 +4,4 @@ description: Hear the coolest sound when u dead!
 version: 2.1
 main: DeathSound\Main
 api:
-- 3.0.0-ALPHA7
-- 3.0.0-ALPHA9
-- 3.0.0-ALPHA10
-- 3.0.0-ALPHA11
+- 3.0.0
