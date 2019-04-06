@@ -10,6 +10,7 @@ use pocketmine\event\player\PlayerItemConsumeEvent;
 use pocketmine\event\player\PlayerItemHeldEvent;
 use pocketmine\entity\Effect;
 use pocketmine\utils\TextFormat as color;
+use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener{
 	
