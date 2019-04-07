@@ -20,8 +20,8 @@ use pocketmine\entity\Entity;
 class Main extends PluginBase implements Listener{
     
     public function onEnable(){
-		self::$instance = $this;
-	    Server::getInstance()->getLogger()->info("DeathDropper Enable!");
+	self::$instance = $this;
+	Server::getInstance()->getLogger()->info("DeathDropper Enable!");
         $this->getServer()->getPluginManager()->registerEvents($this,$this);
     }
     
