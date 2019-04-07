@@ -1,0 +1,7 @@
+name: DeathDropper
+author: MyNET\CaptainKenji17
+main: DeathDropper\Main
+version: 2.0
+api:
+- 3.0.0
+- 4.0.0
