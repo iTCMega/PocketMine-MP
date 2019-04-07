@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Gapple;
 
 use pocketmine\plugin\PluginBase;
